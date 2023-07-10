@@ -32,6 +32,9 @@ jobs:
           num1=$(echo "$line1" | sed 's/.*\([0-9]\)$/\1/')
           num2=$(echo "$line2" | sed 's/.*\([0-9]\)$/\1/')
           num3=$(echo "$line3" | sed 's/.*\([0-9]\)$/\1/')
+          echo num1 is $num1
+          echo num2 is $num2
+          echo num3 is $num3
           result=$(expr $num1 \* $num2 % 10)
           if [ $result -eq $num3 ]; then
             echo "succeed"
