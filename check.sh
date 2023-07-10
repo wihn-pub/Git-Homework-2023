@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # 读取info.txt中的三行文字
-read line1 < info.txt
-read line2 < info.txt
+read line1
+read line2
 read line3 < info.txt
 
 # 使用sed命令提取每行末尾的数字
