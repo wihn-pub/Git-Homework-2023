@@ -1,5 +1,4 @@
 #!/bin/bash
-
 content=$(cat ./hw.txt)
 lines=(0 0 0)
 i=0
